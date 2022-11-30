@@ -13,6 +13,12 @@ body{
 }
 
 /* Navigation styling */
+header{
+    height: 100px;
+    width: 100%;
+    background: black;
+}
+
 #logo{
     font-family: 'Crimson Text', serif;
     font-weight: 400;
@@ -21,13 +27,6 @@ body{
     letter-spacing: 1px;
     margin:30px 0 0 20px;
     display: block;
-}
-
-
-#navigation-bar{
-height: 100px;
-width: 100%;
-background: black;
 }
 
 #menu{
@@ -41,6 +40,7 @@ background: black;
     list-style-type: none;
     margin:30px 20px 0 25px;
     display: block;
+    list-style-type: none;
 }
 
 nav a{
@@ -54,7 +54,17 @@ nav a:hover{
 }
 /* End of navigation styling */
 
+/* hero image styling */
 
+#outer-img{
+
+}
+
+#inner-img{
+    
+}
+
+/* img styling end */
 
 /* Footer styling */
 footer{
